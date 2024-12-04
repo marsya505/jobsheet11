@@ -11,6 +11,10 @@ public class ExpressingGratitude_11 {
         String name = getGreetingRecipient();
         System.out.println("Thank you "+name+" for being the best teacher in the world.\n"+
         "You inspired in me a love for learning and made me feel like i could ask you anything.");
+        sayAdditionalGreetings(name);
+    }
+    public static void sayAdditionalGreetings(String recipientName) {
+        System.out.println("I appreciate your dedication" + recipientName);
     }
     public static void main(String[] args) {
         sayThankyou();
