@@ -15,8 +15,8 @@ public class Cube_11 {
             s = input11.nextInt();
     
             L = calculateArea(s);
-            System.out.println("Area of the rectangle = " + L);
+            System.out.println("Area of the cube = " + L);
             vol = calculateVolume(s);
-            System.out.println("Volume of the rectangle = " + vol);
+            System.out.println("Volume of the cube = " + vol);
         }
     }
